@@ -1,0 +1,12 @@
+"""
+
+We’ve used BeautifulSoup to take the turtle data from the Shellter website in the browser and put it into a DataFrame.
+
+Explore the website a bit. Then, print the DataFrame turtles to see how this data is organized.
+
+
+"""
+
+from preprocess import turtles
+
+print(turtles.head())
